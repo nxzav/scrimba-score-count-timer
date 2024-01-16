@@ -1,0 +1,37 @@
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div id="home">
+			<h3>HOME</h3>
+			<div class="text-color" id="home-count"></div>
+			<div id="home-add">
+				<button onclick="homeAdd1()" id="home-add1">+1</button>
+				<button onclick="homeAdd2()" id="home-add2">+2</button>
+				<button onclick="homeAdd3()" id="home-add3">+3</button>
+			</div>
+		</div>
+		<div id="guest">
+			<h3>GUEST</h3>
+			<div class="text-color" id="guest-count"></div>
+			<div id="guest-add">
+				<button onclick="guestAdd1()" id="guest-add1">+1</button>
+				<button onclick="guestAdd2()" id="guest-add2">+2</button>
+				<button onclick="guestAdd3()" id="guest-add3">+3</button>
+			</div>
+		</div>
+	</div>
+	<button onclick="newGame()" id="new-game">NEW GAME</button>
+    <div class="timer-container">
+        <div id="timer">00:00.00</div>
+        <div class="timer-btns">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stopTimer()">Stop</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+	<script src="index.js"></script>
+</body>
+</html>
