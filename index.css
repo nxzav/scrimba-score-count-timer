@@ -148,3 +148,9 @@ h3 {
 .leader {
     color: #C8E4B2;
 }
+
+@media (max-width: 480px) {
+    .container {
+        column-gap: 5%;
+    }
+}
